@@ -1,0 +1,343 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"con",
+				"contactController"
+			],
+			[
+				"galle",
+				"gallery"
+			],
+			[
+				"Hom",
+				"homeControl"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"gold-",
+				"gold-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"body",
+				"body-color"
+			],
+			[
+				"bod",
+				"body-color"
+			],
+			[
+				"text-",
+				"text-center"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"d-",
+				"d-sm-block"
+			],
+			[
+				"D",
+				"Display"
+			],
+			[
+				"jqu",
+				"jquery"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"blo",
+				"blogControl"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"fetch_ob",
+				"mysql_fetch_object"
+			],
+			[
+				"st",
+				"status_code"
+			],
+			[
+				"sta",
+				"status_code"
+			],
+			[
+				"method",
+				"method_exists"
+			],
+			[
+				"end",
+				"endpoint"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"rou",
+				"Route"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "set syntax",
+		"selected_items":
+		[
+			[
+				"set syntax",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/work/eproject/amzing-bridges-website"
+	],
+	"file_history":
+	[
+		"/D/work/eproject/classic/css/style.scss",
+		"/D/work/eproject/classic/css/style.css",
+		"/D/work/eproject/classic/js/bootstrap.min.js",
+		"/D/work/eproject/classic/js/jquery.slim.js",
+		"/D/work/eproject/classic/index.html",
+		"/D/work/eproject/classic/css/leaflet.css",
+		"/D/work/eproject/classic/views/home.html",
+		"/D/work/eproject/classic/views/contact.html",
+		"/D/work/eproject/classic/views/gallery.html",
+		"/D/work/eproject/classic/css/bootstrap.min.css",
+		"/D/work/eproject/classic/js/script.js",
+		"/D/work/eproject/classic/views/about.html",
+		"/D/work/eproject/classic/css/style.sass",
+		"/D/work/eproject/classic/tesst.html",
+		"/D/work/eproject/classic/js/jquery-custom.js",
+		"/D/work/eproject/templatemo_488_classic/index.html",
+		"/D/work/eproject/templatemo_488_classic/js/script.js",
+		"/D/work/eproject/templatemo_488_classic/views/home.html",
+		"/D/work/eproject/templatemo_488_classic/css/style.css",
+		"/D/work/eproject/templatemo_488_classic/views/blog.html",
+		"/D/work/eproject/templatemo_488_classic/views/contact.html",
+		"/D/work/eproject/templatemo_488_classic/views/about.html",
+		"/D/work/eproject/templatemo_488_classic/about.html",
+		"/D/work/eproject/templatemo_488_classic/contact.html",
+		"/D/work/eproject/templatemo_488_classic/blog.html",
+		"/C/xampp/htdocs/botsite/func/api.php",
+		"/C/xampp/htdocs/botsite/update.php",
+		"/C/xampp/htdocs/botsite/func/restfulapi.php",
+		"/C/xampp/htdocs/botsite/func/user-api.php",
+		"/C/xampp/htdocs/botsite/func/function.php",
+		"/C/xampp/htdocs/botsite/conf/conn.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "amazing-bridges.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

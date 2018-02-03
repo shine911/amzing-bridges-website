@@ -3,7 +3,7 @@ e-Project Sem 1 - DISM
 AMAZING BRIDGES
 -----------------------
 Problem Statement
-______________________
+-----------------------
 Amazing Bridges website will present the information about the various famous
 bridges throughout the world. The information behind this creation must be added.
 The information of amazing bridges can be categorized based on zone wise (Longest,
@@ -15,7 +15,7 @@ and Geolocation. The site should work well in all leading browsers including Chr
 IE, Firefox etc.
 
 Requirement Specification:
-----------------------
+-------------------------
 The Web site is to be created based on the following requirements.
 1) The Home Page should be created making use of Sections with a suitable
 logo, the header section can be added which will show images of famous

@@ -339,7 +339,7 @@ p {
   .tm-btn {
     padding: 10px 15px;
     font-size: 1rem; } }
-@media (max-width: 767px) {
+@media (max-width: 414px) {
   .tm-content-box {
     margin-bottom: 50px; }
 
@@ -404,11 +404,13 @@ p {
 
   /*LOGO */
   .navbar-brand .tm-gold-banner {
-    font-size: 1.25rem !important; }
+    font-size: 1.25rem !important;
+    position: relative;
+    left: 10%; }
   .navbar-brand #tm-img-logo {
     height: 38px !important;
     width: 50px !important; } }
-@media (max-width: 569px) {
+@media (max-width: 375px) {
   .tm-footer-links-container {
     padding-left: 0; }
 
@@ -419,15 +421,18 @@ p {
     padding: 10px 30px; }
 
   /*LOGO */
-  .navbar-brand .tm-gold-banner {
-    font-size: 1.05rem !important; }
   .navbar-brand #tm-img-logo {
     height: 28px !important;
     width: 40px !important; }
 
   .navbar-toggler {
-    padding: .125rem .25rem !important; } }
-@media (max-width: 510px) {
+    padding: .125rem .25rem !important; }
+
+  .navbar-brand .tm-gold-banner {
+    font-size: 1.05rem !important;
+    position: relative;
+    left: 15%; } }
+@media (max-width: 320px) {
   .media {
     max-width: 240px; }
 
@@ -466,7 +471,12 @@ p {
   .tm-contact-related-posts-container {
     max-width: 240px;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+
+  .navbar-brand .tm-gold-banner {
+    font-size: 1.05rem !important;
+    position: relative;
+    left: 5%; } }
 /*LOGO */
 .navbar-brand .tm-gold-banner {
   font-family: Rammetto One;

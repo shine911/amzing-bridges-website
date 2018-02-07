@@ -1,10 +1,8 @@
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
     <section>
-        <h3 class="tm-gold-text tm-form-title">Contact US</h3>
-        <p class="tm-form-description">If you want to share your country bridge to every people in the world to know it. Please contact us!</p> 
-
-
+        <h3 class="tm-gold-text">Contact US</h3>
+        <p class="tm-form-description">If you want to share your country bridge to every people in the world to know it.Please contact!</p> 
         <form action="index.html" method="post" class="tm-contact-form">                                
             <div class="form-group">
                 <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
@@ -22,31 +20,17 @@
             <button type="submit" class="tm-btn">Submit</button>                          
         </form>   
     </section>
-    
-    <section class="tm-margin-t-mid tm-map-section">
-        <h3 class="tm-gold-text tm-form-title">CUSC Software</h3>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+    <section class="">
+        <h3 class="tm-gold-text ">CUSC Software</h3>
 
         <div id="mapid"></div>
 
-        <p class="tm-form-description">1 Ly Tu Trong Street, Ninh Kieu, Can Tho</p>
-
-        <p class="m-b-0">If you need any help please tell: 0292999999 or go to our company to recived support from our employer</p>
-    </section>                        
-
-
+    </section>
 </div>
 
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-contact-right">
-            <div class="tm-content-box tm-content-box-contact">
-                Something Example
-            </div> 
-
-            <div class="tm-content-box tm-margin-t-mid tm-content-box-contact">
-                Something Example 
-            </div>
-    </div>
-
-</div>
 <script>
     var mymap = L.map('mapid').setView([10.03340, 105.78001], 19);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -56,5 +40,6 @@
     accessToken: 'pk.eyJ1Ijoic2hpbmU5MTEiLCJhIjoiY2pkNDJ5dTYwMnBuazJxbXc4OW8wOGhkeSJ9._PyHMKyTgo6M-VAKctb9QQ'
 }).addTo(mymap);
     var marker = L.marker([10.03358,105.77958]).addTo(mymap);
-    marker.bindPopup("<b>CUSC Software!</b><br>Our Company is here.").openPopup();
+    marker.bindPopup("<b>CUSC Software!</b><br>1 Ly Tu Trong Street, Ninh Kieu, Can Tho<br>If you need any help please tell: 0292999999 or go to our company to recived support from our employer").openPopup();
 </script>
+</div>

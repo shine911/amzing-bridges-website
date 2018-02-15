@@ -2,31 +2,35 @@
 var app = angular.module('spa-Application', ['ui.router']);
 //Config route
 app.config(function($stateProvider){
-	var homeState = {
+	var states = [
+	{
 	    name: 'home',
 	    url: '',
-	    templateUrl: 'views/home.html'
-	  }
-
-	var galleryState = {
+	    component: 'home'
+	},
+	{
 	    name: 'gallery',
 	    url: '/gallery',
-	    templateUrl: 'views/gallery.html'
-	  }
-
-	var aboutState = {
+	    component: 'gallery'
+	},
+	{
 	    name: 'about',
 	    url: '/about',
-	    templateUrl: 'views/about.html'
-	  }
-
-	var contactState = {
+	    component: 'about'
+	},
+	{
 	    name: 'contact',
 	    url: '/contact',
-	    templateUrl: 'views/contact.html'
-	  }
-	$stateProvider.state(homeState);
-	$stateProvider.state(galleryState);
-	$stateProvider.state(aboutState);
-	$stateProvider.state(contactState);
+	    component: 'contact'
+	},
+	{
+		name: 'bridges',
+		url: '/home/{id}',
+		component: 'bridges'
+	}
+	];
+	  // Loop over the state definitions and register them
+	states.forEach(function(state) {
+	    $stateProvider.state(state);
+	});
 });

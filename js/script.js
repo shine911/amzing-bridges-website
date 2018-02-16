@@ -24,13 +24,22 @@ app.config(function($stateProvider){
 	    component: 'contact'
 	},
 	{
-		name: 'bridges',
-		url: '/home/{id}',
-		component: 'bridges'
+		name: 'bridge',
+		url: '/home/{bridgeId}',
+		component: 'bridge',
+		resolve: {
+	        bridge: function(bridgesService, $transition$) {
+	          return bridgesService.getBridge($transition$.params().bridgeId);
+	        }
+    	}
 	}
 	];
 	  // Loop over the state definitions and register them
 	states.forEach(function(state) {
 	    $stateProvider.state(state);
 	});
+});
+
+app.run(function($http) {
+  $http.get('data/bridgesCollection.json', { cache: true });
 });

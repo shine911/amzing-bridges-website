@@ -1,5 +1,4 @@
 angular.module('spa-Application').component('bridge', {
-  bindings: { bridges: '<' },
+  bindings: { bridge: '<' },
   templateUrl: 'views/bridges.html',
-
-})
+});

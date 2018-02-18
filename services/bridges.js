@@ -2,9 +2,9 @@ angular.module('spa-Application').service('bridgesService', function($http)
 {
 	var service = {
 		getAllBridges: function(){
-			return $http.get('data/bridgesCollection.json', {cache: true}).then(function(responseData)
+			return $http.get('data/bridgesCollection.json', {cache: true}).then(function(resp)
 			{
-				return responseData.data;
+				return resp.data;
 			});
 		},
 

@@ -43,3 +43,7 @@ app.config(function($stateProvider){
 app.run(function($http) {
   $http.get('data/bridgesCollection.json', { cache: true });
 });
+
+app.config(function($compileProvider){
+  $compileProvider.preAssignBindingsEnabled(true)
+});

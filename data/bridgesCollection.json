@@ -2,6 +2,17 @@
 	{
 		"id":"1",
 		"name":"The Great Belt Bridge",
-		"description":"data/thegreatbelt/description.html"
+		"description":"data/thegreatbelt/description.html",
+		"shortDescription":"The Great Belt (Danish: Storebælt) is a strait between the major islands of Zealand (Sjælland) and Funen (Fyn) in Denmark. It is one of the three Danish Straits.",
+		"x":"55.3336704",
+		"y":"10.9739196"
+	},
+	{
+		"id":"2",
+		"name":"The Great Belt Bridge",
+		"description":"data/thegreatbelt/description.html",
+		"shortDescription":"The Great Belt (Danish: Storebælt) is a strait between the major islands of Zealand (Sjælland) and Funen (Fyn) in Denmark. It is one of the three Danish Straits.",
+		"x":"55.3336704",
+		"y":"10.9739196"
 	}
 ]

@@ -15,5 +15,6 @@ angular.module('spa-Application').component('bridge', {
 	    var marker = L.marker([this.bridge.x,this.bridge.y]).addTo(mymap);
 	    marker.bindPopup("<b>"+this.bridge.name+"</b><br>"+this.bridge.shortDescription).openPopup();
   	}
+  	
   }
 });

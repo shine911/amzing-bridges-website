@@ -1,12 +1,18 @@
 // Load module
 var app = angular.module('spa-Application', ['ui.router']);
 //Config route
-app.config(function($stateProvider){
+app.config(function($stateProvider, $urlRouterProvider){
 	var states = [
 	{
 	    name: 'home',
-	    url: '',
-	    component: 'home'
+	    url: '/home',
+	    component: 'home',
+	    resolve: {
+	    	bridges: function(bridgesService)
+	    	{
+	    		return bridgesService.getAllBridges();
+	    	}
+	    }
 	},
 	{
 	    name: 'gallery',
@@ -24,13 +30,19 @@ app.config(function($stateProvider){
 	    component: 'contact'
 	},
 	{
-		name: 'bridge',
-		url: '/home/{bridgeId}',
-		component: 'bridge',
+		name: 'home.bridge',
+		url: '/{bridgeId}',
 		resolve: {
-	        bridge: function(bridgesService, $transition$) {
-	          return bridgesService.getBridge($transition$.params().bridgeId);
+	        bridge: function(bridges, $stateParams) {
+	          return bridges.find(function (bridge){
+	          	return bridge.id === $stateParams.bridgeId;
+	          });
 	        }
+    	},
+    	views: {
+    		"@":{
+    			component: 'bridge'
+    		}
     	}
 	}
 	];
@@ -38,6 +50,8 @@ app.config(function($stateProvider){
 	states.forEach(function(state) {
 	    $stateProvider.state(state);
 	});
+	// the known route, with missing '/' - let's create alias
+	$urlRouterProvider.when('', '/home');
 });
 
 app.run(function($http) {

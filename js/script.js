@@ -17,7 +17,16 @@ app.config(function($stateProvider, $urlRouterProvider){
 	{
 	    name: 'gallery',
 	    url: '/gallery',
-	    component: 'gallery'
+	    component: 'gallery',
+	    resolve: {
+	    	img: function($http)
+	    	{
+				return $http.get('data/gallery/data.json', {cache: true}).then(function(resp)
+				{
+					return resp.data;
+				});
+			}
+	    }
 	},
 	{
 	    name: 'about',
@@ -60,4 +69,19 @@ app.run(function($http) {
 
 app.config(function($compileProvider){
   $compileProvider.preAssignBindingsEnabled(true)
+});
+app.directive('lightgallery', function() {
+  return {
+    restrict: 'A',
+    link: function(scope, element, attrs) {
+      if (scope.$last) {
+
+        // ng-repeat is completed
+	    lightGallery(document.getElementById('lightgallery'),{
+	        mode: 'lg-fade',
+	        cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)',
+	    });
+      }
+    }
+  };
 });

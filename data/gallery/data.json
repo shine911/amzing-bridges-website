@@ -1,0 +1,32 @@
+[
+	{
+		"responsive":"img/chapel-bridge-320x180.jpg",
+		"imgOriginal":"img/chapel-bridge-original.jpg",
+		"sub":"test"
+	},
+	{
+		"responsive":"img/alcantara-bridge-320x180.jpg",
+		"imgOriginal":"img/alcantara-bridge-original.jpg",
+		"sub":"test"
+	},
+	{
+		"responsive":"img/great-belt-320x180.jpg",
+		"imgOriginal":"img/great-belt-original.jpg",
+		"sub":"test"
+	},
+	{
+		"responsive":"img/pon-fabricius-bridge-660x330.jpg",
+		"imgOriginal":"img/pon-fabricius-bridge-original.jpg",
+		"sub":"test"
+	},
+	{
+		"responsive":"img/chengyang-bridge-320x180.jpg",
+		"imgOriginal":"img/chengyang-bridges-original.jpg",
+		"sub":"test"
+	},
+	{
+		"responsive":"img/chapel-bridge-320x180.jpg",
+		"imgOriginal":"img/chapel-bridge-original.jpg",
+		"sub":"test"
+	}
+]

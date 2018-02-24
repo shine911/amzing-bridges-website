@@ -77,13 +77,14 @@ app.directive('lightgallery', function() {
       if (scope.$last) {
 
         // ng-repeat is completed
-	    $('#lightgallery').lightGallery({
+        var gl = $('#lightgallery');
+	    gl.lightGallery({
 	        mode: 'lg-fade',
 	        cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)',
 	        hideControlOnEnd: true
 	    });
 	    var colours = ['#21171A', '#81575E', '#9C5043', '#8F655D'];
-	    $('#lightgallery').on('onBeforeSlide.lg', function(event, prevIndex, index){
+	    gl.on('onBeforeSlide.lg', function(event, prevIndex, index){
 		    $('.lg-outer').css('background-color', colours[index])
 		});
       }

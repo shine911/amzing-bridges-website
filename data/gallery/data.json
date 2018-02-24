@@ -1,32 +1,32 @@
 [
 	{
-		"responsive":"img/chapel-bridge-320x180.jpg",
-		"imgOriginal":"img/chapel-bridge-original.jpg",
-		"sub":"test"
+		"responsive":"data/gallery/img/responsive/Brooklyn_Bridge_new_york.jpg",
+		"imgOriginal":"data/gallery/img/original/Brooklyn_Bridge_new_york.jpg",
+		"sub":"Golden Gate Bridge, San Francisco"
 	},
 	{
-		"responsive":"img/alcantara-bridge-320x180.jpg",
-		"imgOriginal":"img/alcantara-bridge-original.jpg",
-		"sub":"test"
+		"responsive":"data/gallery/img/responsive/Florence_Ponte_vecchio.jpg",
+		"imgOriginal":"data/gallery/img/original/Florence_Ponte_vecchio.jpg",
+		"sub":"Tower Bridge, London"
 	},
 	{
-		"responsive":"img/great-belt-320x180.jpg",
-		"imgOriginal":"img/great-belt-original.jpg",
-		"sub":"test"
+		"responsive":"data/gallery/img/responsive/golden_gate_bridge_far.jpg",
+		"imgOriginal":"data/gallery/img/original/golden_gate_bridge_far.jpg",
+		"sub":"Sydney Harbour Bridge, Sydney"
 	},
 	{
-		"responsive":"img/pon-fabricius-bridge-660x330.jpg",
-		"imgOriginal":"img/pon-fabricius-bridge-original.jpg",
-		"sub":"test"
+		"responsive":"data/gallery/img/responsive/Sydney.jpg",
+		"imgOriginal":"data/gallery/img/original/Sydney.jpg",
+		"sub":"Brooklyn Bridge, New York"
 	},
 	{
-		"responsive":"img/chengyang-bridge-320x180.jpg",
-		"imgOriginal":"img/chengyang-bridges-original.jpg",
-		"sub":"test"
+		"responsive":"data/gallery/img/responsive/Tower_Bridge.jpg",
+		"imgOriginal":"data/gallery/img/original/Tower_Bridge.jpg",
+		"sub":"Ponte Vecchio, Florence, Italy"
 	},
 	{
-		"responsive":"img/chapel-bridge-320x180.jpg",
-		"imgOriginal":"img/chapel-bridge-original.jpg",
-		"sub":"test"
+		"responsive":"data/gallery/img/responsive/ViaducdeMillau_france.jpg",
+		"imgOriginal":"data/gallery/img/original/ViaducdeMillau_france.jpg",
+		"sub":"Millau Viaduct, Millau, France"
 	}
 ]

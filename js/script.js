@@ -64,7 +64,7 @@ app.config(function($stateProvider, $urlRouterProvider){
 });
 
 app.run(function($http) {
-  $http.get('data/bridgesCollection.json', { cache: true });
+	$http.get('data/bridgesCollection.json', { cache: true });
 });
 
 app.config(function($compileProvider){

@@ -29,6 +29,17 @@ app.config(function($stateProvider, $urlRouterProvider){
 	    }
 	},
 	{
+	    name: 'category',
+	    url: '/category',
+	    component: 'category',
+	    resolve: {
+	    	bridges: function(bridgesService)
+	    	{
+	    		return bridgesService.getAllBridges();
+	    	}
+	    }
+	},
+	{
 	    name: 'about',
 	    url: '/about',
 	    component: 'about'
@@ -41,6 +52,22 @@ app.config(function($stateProvider, $urlRouterProvider){
 	{
 		name: 'home.bridge',
 		url: '/{bridgeId}',
+		resolve: {
+	        bridge: function(bridges, $stateParams) {
+	          return bridges.find(function (bridge){
+	          	return bridge.id === $stateParams.bridgeId;
+	          });
+	        }
+    	},
+    	views: {
+    		"@":{
+    			component: 'bridge'
+    		}
+    	}
+	},
+	{
+	    name: 'category.bridge',
+	    url: '/{bridgeId}',
 		resolve: {
 	        bridge: function(bridges, $stateParams) {
 	          return bridges.find(function (bridge){

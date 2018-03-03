@@ -139,37 +139,6 @@ color: white;
 outline: none;
 }
 
-.tm-btn-gray {
-background-color: #666666;
-}
-.tm-btn-gray:hover, .tm-btn-gray:focus {
-background-color: #515050;
-}
-
-.tm-margin-b-15 {
-margin-bottom: 15px;
-}
-
-.tm-margin-b-20 {
-margin-bottom: 20px;
-}
-
-.tm-margin-b-30 {
-margin-bottom: 30px;
-}
-
-.tm-margin-b-40 {
-margin-bottom: 40px;
-}
-
-.tm-margin-t-big {
-margin-top: 90px;
-}
-
-.tm-margin-t-mid {
-margin-top: 60px;
-}
-
 .tm-margin-t-small {
 margin-top: 30px;
 }
@@ -206,10 +175,6 @@ padding-bottom: 25px;
 
 .tm-media-description {
 margin-bottom: 0;
-}
-
-.tm-2-col-right {
-padding-left: 20px;
 }
 
 .tm-footer {
@@ -262,15 +227,6 @@ padding: 30px 20px 20px;
 margin-bottom: 30px;
 }
 
-.tm-aside-r {
-padding-left: 30px;
-}
-
-.tm-side-bar {
-list-style: none;
-padding-left: 0px;
-}
-
 .form-control {
 border-radius: 0;
 font-size: 1.1rem;
@@ -294,23 +250,7 @@ width: 100%;
 margin-top: 40px;
 }
 
-.tm-contact-right {
-padding-left: 30px;
-}
-
-.tm-p-small {
-font-size: 1rem;
-}
-
 @media (max-width: 1199px) {
-.tm-2-col-left {
-  padding-right: 0;
-}
-
-.tm-2-col-right {
-  padding-left: 0;
-}
-
 .tm-text-link {
   line-height: 2.2;
 }
@@ -347,11 +287,6 @@ font-size: 1rem;
   padding-bottom: 60px;
 }
 
-.tm-2-col-left, .tm-2-col-right {
-  margin: 0 auto;
-  max-width: 660px;
-}
-
 .tm-margin-t-big {
   margin-top: 30px;
 }
@@ -367,29 +302,6 @@ font-size: 1rem;
 
 .tm-footer-content-box {
   margin-bottom: 40px;
-}
-
-.tm-2-rows-md-swap {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.tm-2-rows-md-down-1 {
-  -webkit-order: 1;
-  -ms-flex-order: 1;
-  order: 1;
-}
-
-.tm-2-rows-md-down-2 {
-  -webkit-order: 2;
-  -ms-flex-order: 2;
-  order: 2;
-  margin-bottom: 0;
-  margin-top: 30px;
 }
 
 .tm-contact-right {
@@ -425,78 +337,12 @@ font-size: 1rem;
   margin-bottom: 50px;
 }
 
-.tm-2-col-left {
-  padding-right: 0;
-  max-width: 660px;
-}
-
-.tm-2-col-right {
-  padding-left: 0;
-}
-
-.tm-margin-b-40 {
-  margin-bottom: 25px;
-}
-
 .tm-copyright-text {
   padding-top: 0;
 }
 
-.tm-gray-bg {
-  padding: 20px 20px 10px;
-}
-
 .tm-footer {
   padding-bottom: 15px;
-}
-
-.tm-2-rows-sm-swap {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.tm-2-rows-sm-down-1 {
-  -webkit-order: 1;
-  -ms-flex-order: 1;
-  order: 1;
-}
-
-.tm-2-rows-sm-down-2 {
-  -webkit-order: 2;
-  -ms-flex-order: 2;
-  order: 2;
-  margin-bottom: 0;
-  margin-top: 30px;
-}
-
-.tm-sm-m-b {
-  margin-bottom: 20px;
-}
-
-.tm-aside-r {
-  padding-left: 15px;
-}
-
-.tm-aside-container {
-  max-width: 310px;
-  margin: 0 auto;
-}
-
-.tm-blog-post {
-  padding-bottom: 10px;
-}
-
-.tm-content-box-contact {
-  margin-top: 40px;
-  margin-bottom: 0;
-}
-
-.tm-contact-row-related-posts {
-  margin-top: 40px;
 }
 
 /*LOGO */
@@ -629,12 +475,12 @@ display: block;
 margin-top: -10px
 }
 
-.demo-gallery > ul {
+.gallery > ul {
 margin-bottom: 0;
 padding-left: 15px;
 }
 
-.demo-gallery > ul > li {
+.gallery > ul > li {
 margin-bottom: 15px;
 width: 300px;
 display: inline-block;
@@ -642,7 +488,7 @@ margin-right: 15px;
 list-style: outside none none;
 }
 
-.demo-gallery > ul > li a {
+.gallery > ul > li a {
 border: 3px solid #FFF;
 border-radius: 3px;
 display: block;
@@ -651,7 +497,7 @@ position: relative;
 float: left;
 }
 
-.demo-gallery > ul > li a > img {
+.gallery > ul > li a > img {
 -webkit-transition: -webkit-transform 0.15s ease 0s;
 -moz-transition: -moz-transform 0.15s ease 0s;
 -o-transition: -o-transform 0.15s ease 0s;
@@ -663,16 +509,16 @@ width: 100%;
 border: 5px solid black;
 }
 
-.demo-gallery > ul > li a:hover > img {
+.gallery > ul > li a:hover > img {
 -webkit-transform: scale3d(1.1, 1.1, 1.1);
 transform: scale3d(1.1, 1.1, 1.1);
 }
 
-.demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+.gallery > ul > li a:hover .gallery-poster > img {
 opacity: 1;
 }
 
-.demo-gallery > ul > li a .demo-gallery-poster {
+.gallery > ul > li a .gallery-poster {
 background-color: rgba(0, 0, 0, 0.1);
 bottom: 0;
 left: 0;
@@ -684,7 +530,7 @@ top: 0;
 transition: background-color 0.15s ease 0s;
 }
 
-.demo-gallery > ul > li a .demo-gallery-poster > img {
+.gallery > ul > li a .gallery-poster > img {
 left: 50%;
 margin-left: -10px;
 margin-top: -10px;
@@ -696,11 +542,11 @@ top: 50%;
 transition: opacity 0.3s ease 0s;
 }
 
-.demo-gallery > ul > li a:hover .demo-gallery-poster {
+.gallery > ul > li a:hover .gallery-poster {
 background-color: rgba(0, 0, 0, 0.5);
 }
 
-.demo-gallery .justified-gallery > a > img {
+.gallery .justified-gallery > a > img {
 -webkit-transition: -webkit-transform 0.15s ease 0s;
 -moz-transition: -moz-transform 0.15s ease 0s;
 -o-transition: -o-transform 0.15s ease 0s;
@@ -711,16 +557,16 @@ height: 100%;
 width: 100%;
 }
 
-.demo-gallery .justified-gallery > a:hover > img {
+.gallery .justified-gallery > a:hover > img {
 -webkit-transform: scale3d(1.1, 1.1, 1.1);
 transform: scale3d(1.1, 1.1, 1.1);
 }
 
-.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+.gallery .justified-gallery > a:hover .gallery-poster > img {
 opacity: 1;
 }
 
-.demo-gallery .justified-gallery > a .demo-gallery-poster {
+.gallery .justified-gallery > a .gallery-poster {
 background-color: rgba(0, 0, 0, 0.1);
 bottom: 0;
 left: 0;
@@ -732,7 +578,7 @@ top: 0;
 transition: background-color 0.15s ease 0s;
 }
 
-.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+.gallery .justified-gallery > a .gallery-poster > img {
 left: 50%;
 margin-left: -10px;
 margin-top: -10px;
@@ -744,11 +590,11 @@ top: 50%;
 transition: opacity 0.3s ease 0s;
 }
 
-.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+.gallery .justified-gallery > a:hover .gallery-poster {
 background-color: rgba(0, 0, 0, 0.5);
 }
 
-.demo-gallery .video .demo-gallery-poster img {
+.gallery .video .gallery-poster img {
 height: 48px;
 margin-left: -24px;
 margin-top: -24px;
@@ -756,7 +602,7 @@ opacity: 0.8;
 width: 48px;
 }
 
-.demo-gallery.dark > ul > li a {
+.gallery.dark > ul > li a {
 border: 3px solid #04070a;
 }
 .dropdown-toggle::after

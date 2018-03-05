@@ -53,6 +53,33 @@
 		"x":"52.970556",
 		"y":"-3.087778",
 		"link":"data/pontcysyllte/Pontcysyllte Aqueduct.docx"
+	},
+	{
+		"id":"7",
+		"name":"The Millau Viaduct",
+		"description":"data/MillauViaduct/description.html",
+		"shortDescription":"The Millau Viaduct (French: le Viaduc de Millau, IPA: [vjadyk də mijo]) is a cable-stayed bridge that spans the gorge valley of the River Tarn near Millau in southern France",
+		"x":"44.079444",
+		"y":"3.022222",
+		"link":"data/MillauViaduct/MillauViaduct.docx"
+	},
+	{
+		"id":"8",
+		"name":"Danyang–Kunshan Grand Bridge",
+		"description":"data/Danyang–Kunshan-Grand-Bridge/description.html",
+		"shortDescription":"The Danyang–Kunshan Grand Bridge is a 164.8-kilometre (102.4 mi) long viaduct on the Beijing–Shanghai High-Speed Railway. It is the world's longest bridge.",
+		"x":"31.597837",
+		"y":"120.456848",
+		"link":"data/Danyang–Kunshan-Grand-Bridge/Danyang–Kunshan-Grand-Bridge.docx"
+	},
+	{
+		"id":"9",
+		"name":"Cầu khỉ",
+		"description":"data/monkey-bridge/description.html",
+		"shortDescription":"A cầu khỉ (\"monkey bridge\") in Vietnam is a handmade bamboo or wooden passway across a stream or gully. The \"monkey bridge\", as a uniquely Vietnamese traditional symbol, was the inspiration for the title of American author Lan Cao's novel Monkey Bridge.",
+		"x":"10.032415",
+		"y":"105.784092",
+		"link":"data/monkey-bridge/monkey-bridge.docx"
 	}
 
 ]

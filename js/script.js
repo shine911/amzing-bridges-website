@@ -50,6 +50,11 @@ app.config(function($stateProvider, $urlRouterProvider){
 	    component: 'contact'
 	},
 	{
+	    name: 'sitemap',
+	    url: '/sitemap',
+	    component: 'sitemap'
+	},
+	{
 		name: 'home.bridge',
 		url: '/{bridgeId}',
 		resolve: {

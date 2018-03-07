@@ -1,0 +1,76 @@
+<head>
+<style>
+	ul.tree, ul.tree ul {
+    list-style: none;
+     margin: 0;
+     padding: 0;
+   } 
+   ul.tree ul {
+     margin-left: 10px;
+   }
+   ul.tree li {
+     margin: 0;
+     padding: 0 7px;
+     line-height: 20px;
+     color: #369;
+     font-weight: bold;
+     border-left:1px solid rgb(100,100,100);
+
+   }
+   ul.tree li:last-child {
+       border-left:none;
+   }
+   ul.tree li:before {
+      position:relative;
+      top:-0.3em;
+      height:1em;
+      width:12px;
+      color:white;
+      border-bottom:1px solid rgb(100,100,100);
+      content:"";
+      display:inline-block;
+      left:-7px;
+   }
+   ul.tree li:last-child:before {
+      border-left:1px solid rgb(100,100,100);   
+   }
+   *, ::after, ::before
+   {
+   	box-sizing: content-box !important;
+   }
+</style>
+</head>
+<body>
+<div class="row">
+<div class="offset-4">
+</div>
+<div class="col-sm-4">
+<span style="font-size: 12pt"><a ui-sref="home">Amazing bridges</a></span>
+<ul class="tree">
+    <li>
+    	<a ui-sref="home">Home</a>
+       	<ul>
+    		<li><a ui-sref="home.bridge({bridgeId: 1})">The Great Belt</a></li>
+    		<li><a ui-sref="home.bridge({bridgeId: 2})">Chapel Bridge</a></li>
+    		<li><a ui-sref="home.bridge({bridgeId: 3})">Chengyang Bridge</a></li>
+    		<li><a ui-sref="home.bridge({bridgeId: 4})">Alcántara Bridge</a></li>
+    		<li><a ui-sref="home.bridge({bridgeId: 5})">The Pon Fabricius Bridge</a></li>
+    		<li><a ui-sref="home.bridge({bridgeId: 6})">Pontcysyllte Aqueduct</a></li>
+    	</ul>
+    </li>
+    <li><a ui-sref="gallery">Gallery</a></li>
+    <li>
+    	<a ui-sref="category">Category</a>
+    	<ul>
+    		<li><a ui-sref="category.bridge({bridgeId: 7})">Tallest Bridge</a></li>
+    		<li><a ui-sref="category.bridge({bridgeId: 8})">Longest Bridge</a></li>
+    		<li><a ui-sref="category.bridge({bridgeId: 9})">Vietnam Bridge</a></li>
+    	</ul>
+    </li>
+    <li><a ui-sref="about">About</a></li>
+    <li><a ui-sref="contact">Contact</a></li>
+    <li><a ui-sref="sitemap">Sitemap</a></li>
+</ul>
+</div>
+</div>
+</body>
